@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2F1415B82E961FFB0058AFA4 /* TestGithubActions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGithubActions.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F1415C52E961FFC0058AFA4 /* TestGithubActionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGithubActionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F1415CF2E961FFC0058AFA4 /* TestGithubActionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGithubActionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1415B82E961FFB0058AFA4 /* TestGithubActionsRamdan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGithubActionsRamdan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1415C52E961FFC0058AFA4 /* TestGithubActionsRamdanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGithubActionsRamdanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1415CF2E961FFC0058AFA4 /* TestGithubActionsRamdanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGithubActionsRamdanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		2F1415B92E961FFB0058AFA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2F1415B82E961FFB0058AFA4 /* TestGithubActions.app */,
-				2F1415C52E961FFC0058AFA4 /* TestGithubActionsTests.xctest */,
-				2F1415CF2E961FFC0058AFA4 /* TestGithubActionsUITests.xctest */,
+				2F1415B82E961FFB0058AFA4 /* TestGithubActionsRamdan.app */,
+				2F1415C52E961FFC0058AFA4 /* TestGithubActionsRamdanTests.xctest */,
+				2F1415CF2E961FFC0058AFA4 /* TestGithubActionsRamdanUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2F1415B72E961FFB0058AFA4 /* TestGithubActions */ = {
+		2F1415B72E961FFB0058AFA4 /* TestGithubActionsRamdan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F1415D92E961FFC0058AFA4 /* Build configuration list for PBXNativeTarget "TestGithubActions" */;
+			buildConfigurationList = 2F1415D92E961FFC0058AFA4 /* Build configuration list for PBXNativeTarget "TestGithubActionsRamdan" */;
 			buildPhases = (
 				2F1415B42E961FFB0058AFA4 /* Sources */,
 				2F1415B52E961FFB0058AFA4 /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				2F1415BA2E961FFB0058AFA4 /* TestGithubActions */,
 			);
-			name = TestGithubActions;
+			name = TestGithubActionsRamdan;
 			packageProductDependencies = (
 			);
 			productName = TestGithubActions;
-			productReference = 2F1415B82E961FFB0058AFA4 /* TestGithubActions.app */;
+			productReference = 2F1415B82E961FFB0058AFA4 /* TestGithubActionsRamdan.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2F1415C42E961FFC0058AFA4 /* TestGithubActionsTests */ = {
+		2F1415C42E961FFC0058AFA4 /* TestGithubActionsRamdanTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F1415DC2E961FFC0058AFA4 /* Build configuration list for PBXNativeTarget "TestGithubActionsTests" */;
+			buildConfigurationList = 2F1415DC2E961FFC0058AFA4 /* Build configuration list for PBXNativeTarget "TestGithubActionsRamdanTests" */;
 			buildPhases = (
 				2F1415C12E961FFC0058AFA4 /* Sources */,
 				2F1415C22E961FFC0058AFA4 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				2F1415C82E961FFC0058AFA4 /* TestGithubActionsTests */,
 			);
-			name = TestGithubActionsTests;
+			name = TestGithubActionsRamdanTests;
 			packageProductDependencies = (
 			);
 			productName = TestGithubActionsTests;
-			productReference = 2F1415C52E961FFC0058AFA4 /* TestGithubActionsTests.xctest */;
+			productReference = 2F1415C52E961FFC0058AFA4 /* TestGithubActionsRamdanTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2F1415CE2E961FFC0058AFA4 /* TestGithubActionsUITests */ = {
+		2F1415CE2E961FFC0058AFA4 /* TestGithubActionsRamdanUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F1415DF2E961FFC0058AFA4 /* Build configuration list for PBXNativeTarget "TestGithubActionsUITests" */;
+			buildConfigurationList = 2F1415DF2E961FFC0058AFA4 /* Build configuration list for PBXNativeTarget "TestGithubActionsRamdanUITests" */;
 			buildPhases = (
 				2F1415CB2E961FFC0058AFA4 /* Sources */,
 				2F1415CC2E961FFC0058AFA4 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				2F1415D22E961FFC0058AFA4 /* TestGithubActionsUITests */,
 			);
-			name = TestGithubActionsUITests;
+			name = TestGithubActionsRamdanUITests;
 			packageProductDependencies = (
 			);
 			productName = TestGithubActionsUITests;
-			productReference = 2F1415CF2E961FFC0058AFA4 /* TestGithubActionsUITests.xctest */;
+			productReference = 2F1415CF2E961FFC0058AFA4 /* TestGithubActionsRamdanUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2F1415B32E961FFB0058AFA4 /* Build configuration list for PBXProject "TestGithubActions" */;
+			buildConfigurationList = 2F1415B32E961FFB0058AFA4 /* Build configuration list for PBXProject "TestGithubActionsRamdan" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2F1415B72E961FFB0058AFA4 /* TestGithubActions */,
-				2F1415C42E961FFC0058AFA4 /* TestGithubActionsTests */,
-				2F1415CE2E961FFC0058AFA4 /* TestGithubActionsUITests */,
+				2F1415B72E961FFB0058AFA4 /* TestGithubActionsRamdan */,
+				2F1415C42E961FFC0058AFA4 /* TestGithubActionsRamdanTests */,
+				2F1415CE2E961FFC0058AFA4 /* TestGithubActionsRamdanUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		2F1415C72E961FFC0058AFA4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2F1415B72E961FFB0058AFA4 /* TestGithubActions */;
+			target = 2F1415B72E961FFB0058AFA4 /* TestGithubActionsRamdan */;
 			targetProxy = 2F1415C62E961FFC0058AFA4 /* PBXContainerItemProxy */;
 		};
 		2F1415D12E961FFC0058AFA4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2F1415B72E961FFB0058AFA4 /* TestGithubActions */;
+			target = 2F1415B72E961FFB0058AFA4 /* TestGithubActionsRamdan */;
 			targetProxy = 2F1415D02E961FFC0058AFA4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -395,6 +395,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4SQMCY5WT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -407,7 +408,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.muhammadramdan.TestGithubActions;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhammadramdan.TestGithubActionsRamdan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -426,6 +427,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4SQMCY5WT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -438,7 +440,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.muhammadramdan.TestGithubActions;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhammadramdan.TestGithubActionsRamdan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -456,6 +458,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4SQMCY5WT;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
@@ -467,7 +470,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestGithubActions.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestGithubActions";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestGithubActionsRamdan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestGithubActionsRamdan";
 			};
 			name = Debug;
 		};
@@ -477,6 +480,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4SQMCY5WT;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
@@ -488,7 +492,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestGithubActions.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestGithubActions";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestGithubActionsRamdan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestGithubActionsRamdan";
 			};
 			name = Release;
 		};
@@ -497,6 +501,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4SQMCY5WT;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.muhammadramdan.TestGithubActionsUITests;
@@ -516,6 +521,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4SQMCY5WT;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.muhammadramdan.TestGithubActionsUITests;
@@ -533,7 +539,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2F1415B32E961FFB0058AFA4 /* Build configuration list for PBXProject "TestGithubActions" */ = {
+		2F1415B32E961FFB0058AFA4 /* Build configuration list for PBXProject "TestGithubActionsRamdan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F1415D72E961FFC0058AFA4 /* Debug */,
@@ -542,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F1415D92E961FFC0058AFA4 /* Build configuration list for PBXNativeTarget "TestGithubActions" */ = {
+		2F1415D92E961FFC0058AFA4 /* Build configuration list for PBXNativeTarget "TestGithubActionsRamdan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F1415DA2E961FFC0058AFA4 /* Debug */,
@@ -551,7 +557,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F1415DC2E961FFC0058AFA4 /* Build configuration list for PBXNativeTarget "TestGithubActionsTests" */ = {
+		2F1415DC2E961FFC0058AFA4 /* Build configuration list for PBXNativeTarget "TestGithubActionsRamdanTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F1415DD2E961FFC0058AFA4 /* Debug */,
@@ -560,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F1415DF2E961FFC0058AFA4 /* Build configuration list for PBXNativeTarget "TestGithubActionsUITests" */ = {
+		2F1415DF2E961FFC0058AFA4 /* Build configuration list for PBXNativeTarget "TestGithubActionsRamdanUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F1415E02E961FFC0058AFA4 /* Debug */,
